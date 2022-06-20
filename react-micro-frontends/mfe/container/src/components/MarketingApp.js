@@ -10,5 +10,3 @@ export default () => {
 
     return <div ref={ref} />
 }
-
-// add comment to test workflow
