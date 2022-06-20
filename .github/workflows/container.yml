@@ -11,14 +11,14 @@ defaults:
   run:
     working-directory: react-micro-frontends/mfe/container
 
-jobs: 
-  build: 
-    runs-on: ubuntu-latest
-    # steps to run
-    steps: 
-      - uses: actions/checkout@v2
-      - run: npm install
-      - run: npm run build
+# jobs: 
+#   build: 
+#     runs-on: ubuntu-latest
+#     # steps to run
+#     steps: 
+#       - uses: actions/checkout@v2
+#       - run: npm install
+#       - run: npm run build
       
 
 #     - uses: shinyinc/action-aws-cli@v1.2
