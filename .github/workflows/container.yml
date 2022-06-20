@@ -5,11 +5,11 @@ on:
     branches: 
       - main
     paths:
-      - 'container/**'
+      - 'react-micro-frontends/mfe/container/**'
 
 defaults:
   run:
-    working-directory: packages/container
+    working-directory: react-micro-frontends/mfe/container
 
 jobs: 
   build: 
