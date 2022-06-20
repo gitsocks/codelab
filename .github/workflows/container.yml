@@ -11,8 +11,8 @@ defaults:
   run:
     working-directory: react-micro-frontends/mfe/container
 
-# jobs: 
-#   build: 
+jobs: 
+  build: 
 #     runs-on: ubuntu-latest
 
 #     steps: 
