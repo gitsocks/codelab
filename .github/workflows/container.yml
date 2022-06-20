@@ -4,8 +4,8 @@ on:
   push: 
     branches: 
       - main
-    # paths:
-    #   - 'react-micro-frontends/mfe/container/**'
+    paths:
+      - 'react-micro-frontends/mfe/container/**'
 
 defaults:
   run:
