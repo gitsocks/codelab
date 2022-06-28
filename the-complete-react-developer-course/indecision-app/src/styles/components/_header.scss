@@ -1,0 +1,29 @@
+.header {
+    background: $off-black;
+    color: white;
+    margin-bottom: $medium-size; //48px
+    padding: $small-size 0;
+}
+
+// BEM naming convention (block element modifier)
+.header__title {
+    font-size: $large-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: $off-white;
+    font-size: $small-size;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $xlarge-size; //48px
+    }
+
+    .header__title {
+        font-size: $large-size;
+    }
+} 

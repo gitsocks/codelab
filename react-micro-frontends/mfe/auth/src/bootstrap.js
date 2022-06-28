@@ -7,6 +7,7 @@ const mount = (root, { onNavigate, defaultHistory, initialPath, onSignIn }) => {
     const history = defaultHistory || createMemoryHistory({
         initialEntries: [initialPath]
     });
+    
     if (onNavigate) history.listen(onNavigate);
     ReactDOM.render(<App history={history} onSignIn={onSignIn} />, root)
 

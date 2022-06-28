@@ -81,6 +81,7 @@ export default function Header({ isSignedIn, onSignOut }) {
           >
             App
           </Typography>
+          <div className='marketing'>Hi</div>
           <Button
             color="primary"
             variant="outlined"
